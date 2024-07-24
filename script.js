@@ -1,5 +1,7 @@
 'use strict';
 
-console.log("Hello, world!");
+function getCurrentTime() {
+    return new Date().getTime();
+}
 
-console.log("Another console log");
+console.log(getCurrentTime());
